@@ -51,6 +51,10 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_FOLDER)/prebuilt/usr/keylayout/omap4-keypad.kl:system/usr/keylayout/omap4-keypad.kl \
     $(DEVICE_FOLDER)/prebuilt/usr/keylayout/atmxt-i2c.kl:system/usr/keylayout/atmxt-i2c.kl
 
+# Alternate optional key maps
+PRODUCT_PACKAGES += \
+    MaseratiKeypad
+
 $(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
 $(call inherit-product, vendor/motorola/maserati/maserati-vendor.mk)
 $(call inherit-product, vendor/motorola/omap4-common/omap4-common-lte-vendor-blobs.mk)

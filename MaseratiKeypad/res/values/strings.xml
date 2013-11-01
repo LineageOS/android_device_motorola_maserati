@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Maserati Keypad</string>
+    <string name="keyboard_layouts_label">Droid 4 keypad</string>
+    <string name="keypad_maserati_default_label">Droid 4 default</string>
+</resources>
