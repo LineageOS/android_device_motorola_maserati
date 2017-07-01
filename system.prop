@@ -199,3 +199,8 @@ ro.telephony.get_imsi_from_sim=true
 # Vold switchability uncomment second line to swap
 ro.vold.switchablepair=/storage/sdcard0,/storage/sdcard1
 #persist.sys.vold.switchexternal=1
+#
+#
+
+# this affects lock screen ColorFader and ensures release of /dev/pvrsrvkm GPU ressources
+ro.egl.destroy_after_detach=true
